@@ -19,7 +19,7 @@ body{
     margin-top: 20px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .left{
     width: 50%;
@@ -98,9 +98,11 @@ padding: 15px 32px;
 }
 
 .right{
+    width: 50%;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    
 }
 .right h3{
     font-size: 26px;
@@ -126,8 +128,6 @@ font-weight: 400;
     border-radius: 25px;
     padding: 26px 20px;
     gap: 10px;
-    width: 270px;
-    height: 333px;
 }
 .left-clomn-top img{
     width: 100px;
@@ -145,8 +145,7 @@ font-weight: 400;
     border-radius: 25px;
     padding: 26px 20px;
     gap: 10px;
-    width: 270px;
-    height: 333px;
+    
 
 }
 .left-clomn-bottom img{
@@ -171,8 +170,7 @@ font-weight: 400;
     border-radius: 25px;
     padding: 26px 20px;
     gap: 10px;
-    width: 270px;
-    height: 333px;
+   
 }
 .right-clomn-top img{
     width: 100px;
@@ -189,8 +187,7 @@ font-weight: 400;
     border-radius: 25px;
     padding: 26px 20px;
     gap: 10px;
-    width: 270px;
-    height: 333px;
+   
 
 }
 .right-clomn-bottom img{

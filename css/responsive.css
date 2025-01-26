@@ -1,5 +1,13 @@
-@media (max-width: 920px) {
+@media (max-width: 992px) {
     .container-main{
+        flex-direction: column;
 
+    }
+    .left{
+        
+
+    }
+    .right{
+        flex-wrap: wrap;
     }
 }
