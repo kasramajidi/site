@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     padding: 0;
@@ -152,4 +153,170 @@ li{
 
 .menu-picture{
     display: none;
+}
+
+
+footer {
+    background-image: url(../images/footerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.social>img {
+    width: 205px;
+    height: 73px;
+}
+
+.social>p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35.5px;
+    letter-spacing: 0.02em;
+    width: 368px;
+    color: #011627;
+
+}
+
+.social-icons img {
+    width: 44.17px;
+    height: 44.17px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 63.1px;
+}
+
+footer h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0.02em;
+    color: #2EC4B6;
+}
+
+footer h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    color: #2EC4B6;
+}
+
+footer .news p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    width: 194px;
+}
+
+footer .news span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    letter-spacing: 0.055em;
+    color: #E71D36;
+    padding-left: 11px;
+}
+
+footer .news>div>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+footer .news>div>div {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+footer .news>div>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.company div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.company a {
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+letter-spacing: 0.02em;
+color: #263238;
+}
+
+.linkbox {
+    display: flex;
+    gap: 165px;
+    margin-top: 110px;
+    margin-bottom: 86px;
+}
+
+.company h5 {
+    justify-self: flex-start;
+}
+
+footer .copyright p,a {
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+letter-spacing: 0.02em;
+color: #011627;
+}
+
+footer .copyright a:first-child {
+color: #2EC4B6;
+}
+
+footer .copyright div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer .company {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+footer .news {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+footer .news > div {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footercnt {
+    display: flex;
+    justify-content: space-between;
 }
