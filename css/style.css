@@ -138,8 +138,9 @@ li{
     border: none;
     display: flex;
     align-items: center;
-    background-color: transparent;
+    background: transparent;
     gap: 10px;
+    box-shadow: 0 0 0 0;
 }
 
 .btn-right-right a{

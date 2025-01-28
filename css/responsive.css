@@ -1,29 +1,30 @@
 @media (max-width: 992px) {
-    .container-main{
+    .container-main {
         flex-direction: column;
 
     }
-    .left{
-        
 
+    .left {
+        margin-bottom: 15px;
     }
-    .right{
+
+    .right {
         flex-wrap: wrap;
     }
 
     .container {
         max-width: 100%;
-        padding: 0 20px; 
+        padding: 0 20px;
     }
 
-    .container-nav { 
+    .container-nav {
         display: flex;
         align-items: center;
     }
 
     .logo {
-        font-size: 50px; 
-        margin-bottom: 20px; 
+        font-size: 50px;
+        margin-bottom: 20px;
     }
 
     .menu {
@@ -33,42 +34,130 @@
 
 
     .picture-div {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
     .picture-div-left {
-        align-items: center; 
+        align-items: center;
     }
 
     .h1-span {
-        font-size: 50px; 
-        line-height: 65px; 
-        text-align: center; 
+        font-size: 50px;
+        line-height: 65px;
+        text-align: center;
     }
 
-    .span-1, .span-2 {
-        text-align: center; 
+    .span-1,
+    .span-2 {
+        text-align: center;
     }
 
     .btn-left {
-        gap: 15px; 
-        margin-top: 50px; 
+        gap: 15px;
+        margin-top: 50px;
     }
 
     .btn-left-left {
-        font-size: 16px; 
-        padding: 10px 30px; 
+        font-size: 16px;
+        padding: 10px 30px;
     }
 
     .btn-right-right a {
-        font-size: 16px; 
+        font-size: 16px;
     }
-    
 
-    .menu-picture{
+
+    .menu-picture {
         display: block;
     }
-}
 
+    footer {
+        padding: 40px 20px;
+        background-size: contain;
+    }
+
+    .footercnt {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .social {
+        align-items: center;
+        text-align: center;
+    }
+
+    .social>img {
+        width: 150px;
+        height: auto;
+    }
+
+    .social>p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .linkbox {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .company,
+    .news {
+        gap: 20px;
+    }
+
+    .company div,
+    .news>div {
+        gap: 10px;
+    }
+
+    .company a,
+    .news span,
+    .news p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .news>div>img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .news>div>div {
+        gap: 15px;
+    }
+
+    .news>div>div>div {
+        height: auto;
+    }
+
+    .copyright {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .copyright div {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .copyright p,
+    .copyright a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
